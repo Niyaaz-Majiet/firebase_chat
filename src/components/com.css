@@ -1,0 +1,55 @@
+.message{
+
+    padding: 0 7px;
+    margin-bottom: 11px;
+    position: relative;
+    width: 100%;
+    font-size: 12px;
+    color: #000000;
+    text-align: left;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    background-color: rgb(106, 154, 236);
+}
+.message:hover{
+    scale: 110%;
+}
+
+.message:nth-child(even){
+    background-color: rgb(145, 179, 238);
+
+}
+
+.message_author{
+    padding: 0,0,0,0;
+    font-weight: 600;
+    margin-left: 10px;
+    color: #fffefe;
+}
+
+.form_message{
+    
+    padding: 0 20px 20px 0;
+    padding-top: 10px;
+    height: 300px;
+    overflow: auto;
+    align-content: center;
+    background: rgb(198, 211, 233);
+
+    
+}
+
+.textUserName{
+    color: #fffefe;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 5px;
+    
+}
+
+.button{
+    margin-left: 5px;
+    background-color: white;
+    color: black;
+    border: 2px solid rgb(0, 0, 0); 
+}
+
